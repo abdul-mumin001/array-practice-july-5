@@ -11,7 +11,7 @@
 //     console.log(nums[index])
 // }
 
-let nums=[1,2,3,4,5,6,7]
+// let nums=[1,2,3,4,5,6,7]
 
 // console.log('initial',nums)
 
@@ -37,8 +37,14 @@ let nums=[1,2,3,4,5,6,7]
 // nums.pop()
 // console.log('popping',nums)
 
-nums.push(1)
-console.log(nums)
+// nums.push(1)
+// console.log(nums)
 
+
+
+// const nums=['Mumin','Abdul','Ashadul','Dilshad'] 
+
+// nums.length=0;
+// console.log(nums.length,nums) 
 
 
