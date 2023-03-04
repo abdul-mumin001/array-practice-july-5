@@ -76,7 +76,118 @@
 
 
 
-let news='india won the match'
-console.log(news.split('i',2))
+// let news='india won the match'
+// console.log(news.split('i',2))
 // console.log(news.split('won'))
 // console.log(news.split(' ').length)
+
+
+
+// let news='india won the match.India become the first country to win 10-18 cup'
+// let target='india'
+// console.log(news.includes('target'))
+
+
+
+// let email='abdulmuminbar@gmail.com'
+// if(email.endsWith('@gmail.com')){
+//     console.log('valid');
+// }else{
+//     console.log('invalid');
+// }
+
+
+
+// let mobile='916901527553'
+// if(mobile.startsWith('91')){
+//     console.log('valid num');
+// }else{
+//     console.log('invalid num');
+// }
+
+
+
+// let mobile='916901527553'
+// if(mobile.length==12){
+//     console.log('valid num');
+// }else{
+//     console.log('invalid num');
+// }
+
+
+// let mobile=' 916901527553 '
+// if(mobile.trim().length==12){
+//     console.log('valid num');
+// }else{
+//     console.log('invalid num');
+// }
+
+
+// if i remove all 5 
+// let mobile=' 916901527553 '
+// console.log(mobile.replace(/5/g,''));
+
+
+
+// let names='mumin is a good is student'
+// // console.log(names.match('is'));
+// console.log(names.match(/iss/));
+// // console.log(names.indexOf('is'));
+// // console.log(names.indexOf(/is/));
+
+
+
+
+
+
+
+// anagram or not
+
+// let word1='god'
+// let word2='dog'
+// if(word1.split('').sort().join('')==word2.split('').sort().join('')){
+//     console.log('anagram');
+// }else{
+//     console.log('not an anagram');
+// }
+
+
+
+
+
+// let word='Sachin Tendulkar'
+// let target='a'
+// let count=0;
+// for(let i=0;i<word.length;i++){
+//     if(word[i]== target){
+//         count+=1;
+//     }
+// }
+// console.log(count);
+
+
+
+// console.log('abdul');
+// setTimeout(()=>{
+//     console.log('inside');
+// },2000)
+// setTimeout(()=>{
+//     console.log('inside');
+// },0)
+// console.log('mumin');
+
+
+
+
+
+// let nums=[1,2,3,4,5]
+// let names=['abdul','mumin','rumi']
+// for(let name of names){
+//     console.log(name);
+// }
+
+
+let arr=5
+
+    console.log(Math.sqrt(arr))
+
